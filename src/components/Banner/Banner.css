@@ -1,0 +1,1083 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+#linkDecoration {
+    text-decoration: none;
+}
+
+.bg-Nutrition {
+    background-color: #337f3b;
+}
+
+.bg-family {
+    background-color: #73a93c;
+}
+
+#imgSize {
+    width: 100%;
+    height: auto;
+}
+
+.btnSize {
+    border: none;
+    border-radius: 25px;
+}
+
+#plan {
+    background-color: #ffae00;
+    color: #fff;
+    border: none;
+    border-radius: 25px 0 0 25px;
+}
+
+#pakage {
+    background-color: #73a93c;
+    color: #fff;
+    border: none;
+    border-radius: 0 25px 25px 0;
+}
+
+#bgpackage {
+    background-color: #337f3b;
+    color: #fff;
+    border: none;
+    border-radius: 0 25px 25px 0;
+}
+
+#inputReSize {
+    border-radius: 25px;
+}
+
+.positionRelative {
+    position: relative;
+}
+
+.nutrition {
+    margin-top: 60px;
+    padding-top: 50px;
+}  
+
+
+.nutrion-color {
+    color: #337915;
+}
+
+.color {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.tSize {
+    font-size: 16px;
+}
+
+.pSize {
+    font-size: 14px;
+}
+
+/* Responsive */
+
+@media (max-width: 575px) {
+    .nutrition {
+        margin-top: 60px;
+    }
+
+    .bgImg {
+        background-image: url(/Images/Latest_background.png);
+        background-repeat:no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-position:center;
+        width: 100%;
+        height: 755px;
+    }
+
+    .nutrionPlanDiv {
+        margin-top: 20px;
+    }
+
+    .displayNone {
+        display: none;
+    }
+    
+    .nutrition {
+        padding-top: 20px;
+    }  
+
+    .bg-Nutrition {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        width: 330px;
+        height: 265px;
+        background-color: #337f3b;
+        border-radius: 10px;
+    }
+
+    .bg-family {
+        margin-bottom: 15px;
+        width: 330px;
+        height: 265px;
+        border-radius: 10px;
+        background-color: #73a93c;
+    }
+
+    .allCenter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gavDiv {
+        display: none;
+    }
+
+    #imgSize1 {
+        margin-top: 12px;
+        margin-right: 12px;
+        margin-left: 13px;
+        width: 80px;
+        height: 90px;
+    }
+
+    #imgSize2 {
+        margin-top: 12px;
+        margin-right: 8px;
+        margin-left: 13px;
+        width: 80px;
+        height: 90px;
+    }
+
+    .color {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .tSize {
+        font-size: 10px;
+    }
+
+    .pSize {
+        font-size: 9px;
+    }
+
+    .pSizeNut {
+        font-size: 16px;
+    }
+
+    .positionChange {
+        margin-top: 20px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .moveTwoBtnDiv {
+        margin-left: 13px;
+        width: 100%;
+    }
+    
+    #plan {
+        width: 152px;
+        height: 50px;
+        background-color: #ffae00;
+        color: #fff;
+        border: none;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 25px 0 0 25px;
+        outline: none;
+    }
+
+    #plan:hover {
+        background-color: #ff9c00;
+    }
+
+    #pakage {
+        width: 152px;
+        height: 50px;
+        background-color: #73a93c;
+        color: #fff;
+        border: none;
+        border-radius: 0 25px 25px 0;
+        font-size: 16px;
+        font-weight: 500;
+        outline: none;
+    }
+
+    #pakage:hover {
+        background-color: #8bc34a;
+    }
+
+    #bgpackage {
+        width: 152px;
+        height: 50px;
+        background-color: #337f3b;
+        color: #fff;
+        border: none;
+        border-radius: 0 25px 25px 0;
+        font-size: 16px;
+        font-weight: 500;
+        outline: none;
+    }
+
+    #bgpackage:hover {
+        background-color: #22652a;
+    }
+
+    #btnResize1 {
+        width: 304px;
+        margin-top: 20px;
+    }
+
+    #btnResize2 {
+        width: 304px;
+        margin-top: 20px;
+    }
+
+    .h3Size {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .forMobileVersion {
+        margin-top: 0px;
+        border-radius: 10px;
+        height: 100px;
+        background-color: #8faf6e;
+    }
+
+    .btnMove {
+        text-align: center;
+    }
+
+    #packageBtn {
+        width: 180px;
+        height: 50px;
+        color: #337f3b;
+        background-color: #f6feee;
+        border-radius: 50px;
+        font-size: 16px;
+        font-weight: 500;
+        border: 1px solid #337f3b;
+        outline: none;
+        display: block;
+        margin: auto;
+    }
+
+    #packageBtn:hover{ 
+        background-color: #e0ecd3;
+    }
+
+    .h4Size {
+        color: #fff;
+        font-size: 18px;
+        padding-top: 10px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 576px) {
+    .bgImg {
+        background-image: url(../../Images/Latest_background.png);
+        background-repeat:no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-position:center;
+    }
+
+    .bg-Nutrition { 
+        width: 260px;
+        height: 260px;
+        background-color: #337f3b;
+        border-radius: 10px;
+    }
+
+    .nutrition {
+        margin-top: 60px;
+    }
+    
+    .bg-family {
+        width: 260px;
+        height: 260px;
+        border-radius: 10px;
+        background-color: #73a93c;
+    }
+
+    .gavDiv {
+        width: 20px;
+    } 
+
+    .movingDivh1 {
+        margin-top: -32px;
+        margin-bottom: 20px;
+    }
+
+    .nutrion-color {
+        color: #337915;
+    }
+    
+    .color {
+        font-family: 'Roboto', sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .h3Size {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+
+    .pSizeNut {
+        font-size: 14px;
+    }
+
+    #plan {
+        width: 120px;
+        background-color: #ffae00;
+        color: #fff;
+        border: none;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 25px 0 0 25px;
+        outline: none;
+    }
+
+    #plan:hover {
+        background-color: #ff9c00;
+    }
+
+    #pakage {
+        width: 120px;
+        background-color: #73a93c;
+        color: #fff;
+        border: none;
+        border-radius: 0 25px 25px 0;
+        font-size: 16px;
+        font-weight: 500;
+        outline: none;
+    }
+
+    #pakage:hover {
+        background-color: #8bc34a;
+    }
+
+    #bgpackage {
+        width: 120px;
+        background-color: #337f3b;
+        color: #fff;
+        border: none;
+        border-radius: 0 25px 25px 0;
+        font-size: 16px;
+        font-weight: 500;
+        outline: none;
+    }
+
+    #bgpackage:hover {
+        background-color: #22652a;
+    }
+
+    #btnResize1 {
+        width: 240px;
+        height: 50px; 
+        margin-top: 10px;
+    }
+
+    #btnResize2 {
+        width: 240px;
+        height: 50px; 
+        margin-top: 10px;
+    }
+
+    #imgSize1 {
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        width: 100px;
+        height: 110px;
+    }
+
+    #imgSize2 {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        width: 100px;
+        height: 110px;
+    }
+
+    .moveTwoBtnDiv {
+        margin-left: 10px;
+    }
+
+    .positionChange {
+        position: relative;
+        z-index: 10;
+    }
+
+    .btnMove {
+        z-index: 1;
+    }
+
+    .customPackage {
+        margin-top: 35px;
+        border-radius: 10px;
+        height: 100px;
+        background-color: #8faf6e;
+    }
+
+    .displayFlexJustifyBetween {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #packageBtn {
+        margin-top: 23px;
+        width: 220px;
+        height: 50px;
+        color: #337f3b;
+        background-color: #f6feee;
+        border-radius: 50px;
+        font-size: 16px;
+        font-weight: 500;
+        border: 1px solid #337f3b;
+        outline: none;
+    }
+
+    #packageBtn:hover{ 
+        background-color: #e0ecd3;
+    }
+
+    .h4Size {
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 10px;
+        color: #fff;
+    }
+
+    .h4Move {
+        margin-top: 30px;
+        padding-left: 20px;
+    }
+
+    .displayNone {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .bgImg {
+        background-image: url(/Images/Latest_background.png);
+        background-repeat:no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-position:center;
+        height: 560px;
+    }
+
+    .bg-Nutrition { 
+        width: 350px;
+        height: 280px;
+        background-color: #337f3b;
+        border-radius: 10px;
+    }
+
+    .nutrition {
+        margin-top: 86px;
+    }
+    
+    .bg-family {
+        width:350px;
+        height: 280px;
+        border-radius: 10px;
+        background-color: #73a93c;
+    }
+
+    .gavDiv {
+        width: 20px;
+    }
+
+    .positionRelative {
+        position: relative;
+    }  
+
+    .movingDivh1 {
+        margin-top: -30px;
+        margin-bottom: 25px;
+    }
+
+    .nutrion-color {
+        color: #337915;
+    }
+    
+    .color {
+        font-family: 'Roboto', sans-serif;
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .h3Size {
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+
+    .pSizeNut {
+        font-size: 16px;
+    }
+
+    #plan {
+        width: 160px;
+        background-color: #ffae00;
+        color: #fff;
+        border: none;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 25px 0 0 25px;
+        outline: none;
+    }
+
+    #plan:hover {
+        background-color: #ff9c00;
+    }
+
+    #pakage {
+        width: 160px;
+        background-color: #73a93c;
+        color: #fff;
+        border: none;
+        border-radius: 0 25px 25px 0;
+        font-size: 16px;
+        font-weight: 500;
+        outline: none;
+    }
+
+    #pakage:hover {
+        background-color: #8bc34a;
+    }
+
+    #bgpackage {
+        width: 160px;
+        background-color: #337f3b;
+        color: #fff;
+        border: none;
+        border-radius: 0 25px 25px 0;
+        font-size: 16px;
+        font-weight: 500;
+        outline: none;
+    }
+
+    #bgpackage:hover {
+        background-color: #22652a;
+    }
+
+    #btnResize1 {
+        width: 320px;
+        height: 50px; 
+        margin-top: 10px;
+    }
+
+    #btnResize2 {
+        width: 320px;
+        height: 50px; 
+        margin-top: 10px;
+    }
+
+    #imgSize1 {
+        margin-top: 15px;
+        margin-right: 15px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+        width: 120px;
+        height: 140px;
+    }
+
+    #imgSize2 {
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 10px;
+        width: 120px;
+        height: 140px;
+    }
+
+    .moveTwoBtnDiv {
+        margin-left: 15px;
+    }
+
+    .positionChange {
+        position: relative;
+        z-index: 10;
+    }
+
+    .btnMove {
+        z-index: 1;
+    }
+
+    .customPackage {
+        margin-top: 35px;
+        border-radius: 10px;
+        height: 100px;
+        background-color: #8faf6e;
+    }
+
+    .displayFlexJustifyBetween {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #packageBtn {
+        margin-top: 23px;
+        width: 220px;
+        height: 50px;
+        color: #337f3b;
+        background-color: #f6feee;
+        border-radius: 50px;
+        font-size: 16px;
+        font-weight: 500;
+        border: 1px solid #337f3b;
+        outline: none;
+    }
+
+    #packageBtn:hover{ 
+        background-color: #e0ecd3;
+    }
+
+    .h4Size {
+        font-size: 25px;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .h4Move {
+        margin-top: 20px;
+        padding-left: 20px;
+    }
+
+    .displayNone {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .bgImg {
+        background-image: url(/Images/Latest_background.png);
+        background-repeat:no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-position:center;
+        height: 600px;
+    }
+
+    .displayFlex {
+        display: flex;
+    }
+
+    .bg-Nutrition {
+        width: 48%;
+        height: 280px;
+        background-color: #337f3b;
+        border-radius: 10px;
+    }
+    
+    .bg-family {
+        width: 48%;
+        height: 280px;
+        border-radius: 10px;
+        background-color: #73a93c;
+    }
+
+    .gavDiv {
+        width: 37px;
+    }
+
+    .nutrition {
+        margin-top: 86px;
+    }
+
+    .movingDivh1 {
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+
+    .nutrion-color {
+        color: #337915;
+    }
+    
+    .color {
+        font-family: 'Roboto', sans-serif;
+        font-size: 60px;
+        font-weight: 900;
+    }
+    
+    .tSize {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .pSize {
+        font-size: 16px;
+    }
+
+    .h3Size {
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+
+    .pSizeNut {
+        font-size: 16px;
+    }
+
+    #plan {
+        width: 120px;
+        background-color: #ffae00;
+        color: #fff;
+        border: none;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 25px 0 0 25px;
+        outline: none;
+    }
+
+    #plan:hover {
+        background-color: #ff9c00;
+    }
+
+    #pakage {
+        width: 120px;
+        background-color: #73a93c;
+        color: #fff;
+        border: none;
+        border-radius: 0 25px 25px 0;
+        font-size: 16px;
+        font-weight: 500;
+        outline: none;
+    }
+
+    #pakage:hover {
+        background-color: #8bc34a;
+    }
+
+    #bgpackage {
+        width: 120px;
+        background-color: #337f3b;
+        color: #fff;
+        border: none;
+        border-radius: 0 25px 25px 0;
+        font-size: 16px;
+        font-weight: 500;
+        outline: none;
+    }
+
+    #bgpackage:hover {
+        background-color: #22652a;
+    }
+
+    #btnResize1 {
+        width: 240px;
+        height: 50px; 
+        margin-top: 40px;
+    }
+
+    #btnResize2 {
+        width: 240px;
+        height: 50px; 
+        margin-top: 40px;
+    }
+
+    #imgSize1 {
+        width: 180px;
+        height: 210px;
+    }
+
+    #imgSize2 {
+        width: 180px;
+        height: 210px;
+    }
+
+    .positionChange {
+        position: relative;
+        z-index: 10;
+    }
+
+    .btnMove {
+        z-index: 1;
+    }
+
+    .customPackage {
+        margin-top: 35px;
+        border-radius: 10px;
+        height: 100px;
+        background-color: #8faf6e;
+    }
+
+    .displayFlexJustifyBetween {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #packageBtn {
+        margin-top: 23px;
+        width: 240px;
+        height: 55px;
+        color: #337f3b;
+        background-color: #f6feee;
+        border-radius: 50px;
+        font-size: 18px;
+        font-weight: 500;
+        border: 1px solid #337f3b;
+        outline: none;
+    }
+
+    #packageBtn:hover{ 
+        background-color: #e0ecd3;
+    }
+
+    .h4Size {
+        font-size: 30px;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .h4Move {
+        margin-top: 20px;
+        padding-left: 20px;
+    }
+
+    .nutrionPlanDiv {
+        display: none;
+    }
+
+    .displayNone {
+        display: block;
+    }
+
+    .moveTwoBtnDiv {
+        margin-left: 0px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .bgImg {
+        background-image: url(/Images/Latest_background.png);
+        background-repeat:no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-position:center;
+        height: 640px;
+    }
+
+    .displayFlex {
+        display: flex;
+    }
+
+    .bg-Nutrition {
+        width: 555px;
+        height: 280px;
+        background-color: #337f3b;
+        border-radius: 10px;
+    }
+    
+    .bg-family {
+        width: 555px;
+        height: 280px;
+        border-radius: 10px;
+        background-color: #73a93c;
+    }
+
+    .gavDiv {
+        width: 30px;
+    }
+
+    .nutrition {
+        margin-top: 86px;
+    }
+
+    .movingDivh1 {
+        margin-top: -30px;
+        margin-bottom: 37px;
+    }
+
+    .nutrion-color {
+        color: #337915;
+    }
+    
+    .color {
+        font-family: 'Roboto', sans-serif;
+        font-size: 70px;
+        font-weight: 900;
+    }
+    
+    .tSize {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .pSize {
+        font-size: 16px;
+    }
+
+    .h3Size {
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+
+    .pSizeNut {
+        font-size: 16px;
+    }
+
+    #plan {
+        width: 146px;
+        background-color: #ffae00;
+        color: #fff;
+        border: none;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 25px 0 0 25px;
+        outline: none;
+    }
+
+    #plan:hover {
+        background-color: #ff9c00;
+    }
+
+    #pakage {
+        width: 146px;
+        background-color: #73a93c;
+        color: #fff;
+        border: none;
+        border-radius: 0 25px 25px 0;
+        font-size: 16px;
+        font-weight: 500;
+        outline: none;
+    }
+
+    #pakage:hover {
+        background-color: #8bc34a;
+    }
+
+    #bgpackage {
+        width: 146px;
+        background-color: #337f3b;
+        color: #fff;
+        border: none;
+        border-radius: 0 25px 25px 0;
+        font-size: 16px;
+        font-weight: 500;
+        outline: none;
+    }
+
+    #bgpackage:hover {
+        background-color: #22652a;
+    }
+
+    #btnResize1 {
+        width: 288px;
+        height: 50px; 
+        margin-top: 45px;
+    }
+
+    #btnResize2 {
+        width: 288px;
+        height: 50px; 
+        margin-top: 45px;
+    }
+
+    #imgSize1 {
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 196px;
+        height: 238px;
+    }
+
+    #imgSize2 {
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 196px;
+        height: 238px;
+    }
+
+    .positionChange {
+        position: relative;
+        z-index: 10;
+    }
+
+    .btnMove {
+        z-index: 1;
+    }
+
+    .customPackage {
+        margin-top: 35px;
+        border-radius: 10px;
+        height: 100px;
+        background-color: #8faf6e;
+    }
+
+    .displayFlexJustifyBetween {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #packageBtn {
+        margin-top: 23px;
+        width: 240px;
+        height: 55px;
+        color: #337f3b;
+        background-color: #f6feee;
+        border-radius: 50px;
+        font-size: 18px;
+        font-weight: 500;
+        border: 1px solid #337f3b;
+        outline: none;
+    }
+
+    #packageBtn:hover{ 
+        background-color: #e0ecd3;
+    }
+
+    .h4Size {
+        font-size: 30px;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .h4Move {
+        margin-top: 20px;
+        padding-left: 20px;
+    }
+
+    .nutrionPlanDiv {
+        display: none;
+    }
+
+    .displayNone {
+        display: block;
+    }
+
+    .moveTwoBtnDiv {
+        margin-left: 0px;
+    }
+
+}

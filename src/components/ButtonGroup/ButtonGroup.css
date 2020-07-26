@@ -1,0 +1,35 @@
+#plan {
+    width: 146px;
+    background-color: #ffae00;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+}
+
+#plan:hover {
+    background-color: #ff9c00;
+}
+
+#pakage {
+    width: 146px;
+    background-color: #73a93c;
+    color: #fff;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+}
+
+#pakage:hover {
+    background-color: #8bc34a;
+}
+
+#btnResize1 {
+    width: 288px;
+    height: 50px; 
+    margin-top: 39px;
+}

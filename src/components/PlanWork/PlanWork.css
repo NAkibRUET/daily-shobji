@@ -1,0 +1,319 @@
+
+.overText {
+    position: relative;
+    line-height: 1.9rem;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.dot {
+    padding: 6px 12px;
+    text-align: center;
+    background-color: #73a93c;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 700;
+}
+
+.resizeh2 {
+    font-size: 70px;
+    font-weight: 650;
+}
+
+.resizeP {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* Responsive */
+
+@media (max-width: 575px) {
+    .planWorkDiv {
+        margin-top: 15px;
+    }
+
+    .marginMoveTop {
+        margin-top: -30px;
+    }
+
+    .resizeh2 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .card1 {
+        padding-right: 5px !important;
+        margin-bottom: 10px;
+    }
+
+    .card3{
+        padding-right: 5px !important;
+    }
+
+    .card2 {
+        padding-left: 5px !important;
+    }
+
+    .card4 {
+        padding-left: 5px !important;
+    }
+    
+    .resizeP {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .overText {
+        position: relative;
+        line-height: 1rem;
+    }
+    
+    .text-block {
+        position: absolute;
+        bottom: -2px;
+        left: 5px;
+        color: #fff;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .dot {
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        background-color: #73a93c;
+        border-radius: 100%;
+        color: #fff;
+        padding-left: 8px;
+        padding-top: 5px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 576px) {
+    .overText {
+        position: relative;
+        line-height: 0.9rem;
+    }
+    
+    .text-block {
+        position: absolute;
+        bottom: -9px;
+        left: -5px;
+        color: #fff;
+    }
+
+    .card1 {
+        margin-bottom: 15px;
+        padding-right: 0px;
+        padding-left: 0px;
+    } 
+
+    .card2 {
+        margin-bottom: 15px;
+    }
+    
+    .dot {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+        padding-top: 9px;
+        padding-left: 11px;
+        font-weight: bold;
+        background-color: #73a93c;
+        border-radius: 100%;
+        color: #fff;
+        font-weight: 500;
+    }
+    
+    .resizeh2 {
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    .resizeP {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .marginMoveTop {
+        margin-top: -16px;
+    }
+
+    .img-wrapper1 {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+      
+    .inner-img {
+        transition: 0.3s;
+    }
+      
+    .inner-img:hover {
+        transform: scale(1.1);
+    }
+}
+
+
+@media (min-width: 768px) {
+    .overText {
+        position: relative;
+        line-height: 1.1rem;
+    }
+    
+    .text-block {
+        position: absolute;
+        bottom: -6px;
+        left: 10px;
+        color: #fff;
+    }
+    
+    .dot {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+        padding-top: 6px;
+        font-weight: bold;
+        text-align: center;
+        background-color: #73a93c;
+        border-radius: 50%;
+        color: #fff;
+        font-weight: 500;
+    }
+    
+    .resizeh2 {
+        font-size: 50px;
+        font-weight: 700;
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    .resizeP {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .marginMoveTop {
+        margin-top: -15px;
+    }
+
+    .img-wrapper1 {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+      
+    .inner-img {
+        transition: 0.3s;
+    }
+      
+    .inner-img:hover {
+        transform: scale(1.1);
+    }
+
+} 
+
+@media (min-width: 992px) {
+    .resizeh2 {
+        font-size: 45px;
+        font-weight: 600;
+    }
+    
+    .resizeP {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .overText {
+        position: relative;
+        line-height: 1.4rem;
+    }
+    
+    .text-block {
+        position: absolute;
+        bottom: -8px;
+        left: 10px;
+        color: #fff;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .dot {
+        padding: 5px 10px;
+        text-align: center;
+        background-color: #73a93c;
+        border-radius: 50%;
+        color: #fff;
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 1200px) {
+    .overText {
+        position: relative;
+        line-height: 1.9rem;
+    }
+    
+    .text-block {
+        position: absolute;
+        bottom: 8px;
+        left: 20px;
+        color: #fff;
+    }
+    
+    .dot {
+        width: 51px;
+        height: 51px;
+        font-size: 30px;
+        padding-top: 10px;
+        font-weight: bold;
+        text-align: center;
+        background-color: #73a93c;
+        border-radius: 50%;
+        color: #fff;
+        font-weight: 700;
+    }
+    
+    .resizeh2 {
+        font-size: 70px;
+        font-weight: 700;
+        margin-top: 75px;
+        text-align: center;
+    }
+    
+    .resizeP {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .marginMoveTop {
+        margin-top: 75px;
+    }
+
+    .img-wrapper1 {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+      
+    .inner-img {
+        transition: 0.3s;
+    }
+      
+    .inner-img:hover {
+        transform: scale(1.1);
+    }
+
+    #imgBorder {
+        border-radius: -10px;
+    }
+}

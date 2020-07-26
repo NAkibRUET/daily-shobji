@@ -1,0 +1,1258 @@
+ul {
+    list-style-type: none;
+}
+
+.bgImgPackage {
+    background-image: url(/Images/Latest_background.png);
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    height: 640px;
+}
+
+.menuBar1 {
+    height: 30px;
+}
+
+.menuBar {
+    height: 55px;
+    background-color: #307d3d;
+    border-radius: 50px;
+}
+
+.moveUl {
+    margin-top: 9px;
+}
+
+#linkCustom{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    margin-right: 50px;
+}
+
+#linkCustom:hover {
+    background-color: #75a641;
+    border-radius: 50px;
+}
+
+.shobjiImg {
+    width: 570px;
+    height: 300px;
+}
+
+.packageName {
+    width: 570px;
+}
+
+#packageBtnGroup {
+    width: 320px;
+    height: 50px; 
+    margin-top: 8px;
+}
+
+#cartBtn {
+    width: 140px;
+    background-color: #ffae00;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+}
+
+#cartBtn:hover {
+    background-color: #ff9c00;
+}
+
+#neutrationBtn {
+    width: 180px;
+    background-color: #73a93c;
+    color: #fff;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+}
+
+#neutrationBtn:hover { 
+    background-color: #8bc34a;
+}
+
+.textH5 {
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.ptext {
+    color: #75a641;
+}
+
+.manyText {
+    color: #566573;
+    line-height: 1.7rem;
+}
+
+.marginLeftDiv {
+    margin-left: 20px;
+}
+
+.fontSizeBig {
+    font-weight: 500;
+}
+
+.moveDivp {
+    margin-left: 10px;
+}
+
+.shosaBg {
+    width: 265px;
+    height: 130px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.moveLeft {
+    margin-left: 30px;
+}
+
+.moveLeftSecondRow {
+    margin-left: 40px;
+}
+
+.allShobjiAlign {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.otherDiv {
+    width: 10px;
+}
+
+.firstRowMove {
+    margin-top: 13px;
+}
+
+.marginTopDiv {
+    margin-top: 25px;
+}
+
+.bgColorEstimated {
+    margin-top: 70px;
+    height: 100px;
+    background-color: #f6feee;
+    border: 1px dashed green;
+    border-radius: 10px;
+}
+
+.imgTop {
+    margin-top: 13px;
+    margin-left: 28px;
+    margin-right: 15px;
+}
+
+.tEstimate {
+    margin-top: 4px;
+}
+
+.imgIcon5 {
+    width: 28px;
+    height: 28px;
+    margin-left: 28px;
+    margin-right: 15px;
+}
+
+.movePara {
+    margin-top: 15px;
+}
+
+.iconSize {
+    height: 14px;
+}
+
+.svgIcon {
+    width: 20px;
+    height: 20px;
+    margin-top: -3px;
+}
+
+.dropdownMove {
+    margin-top: 10px;
+}
+
+@media (max-width: 575px) {
+    .containerImgBg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .moveDivp {
+        margin-left: 0px;
+    }
+
+    .bgImgPackage {
+        background-image: url(../../Images/Latest_background.png);
+        background-repeat:no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-position:center;
+        height: 900px;
+    }
+    .addjusmentPicture {
+        margin-top: 60px;
+    }
+
+    .displyFelx {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .headerPackageForMobileView {
+        margin-left: 15px;
+        width: 330px;
+        border-radius: 10px 10px 0 0;
+        background: #fff;
+    }
+
+    .hearderMarR {
+        margin-left: 15px;
+    }
+
+    .navBarDisplayFlex {
+        display: flex;
+    }
+
+    .menubarMove {
+        margin-left: 15px;
+        margin-right: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menuBar {
+        width: 330px;
+        height: 50px;
+        background-color: #307d3d;
+        border-radius: 50px;
+    }
+
+    .moveUl {
+        margin-top: 10px;
+    }
+
+    #linkCustom{
+        color: #fff;
+        font-size: 11px;
+        font-weight: 400;
+        margin-right: 10px;
+    }
+
+    .shobjiImg {
+        width: 330px;
+        height: 347px;
+        background: #a3d39c;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .shosaBg {
+        width: 145px;
+        height: 155px;
+        background: #fff;
+    }
+
+    #allShobjiImgReSize {
+        width: 89%;
+        margin-bottom: 5px;
+        height: 85px;
+    }
+
+    .displayNoneText {
+        display: none;
+    }
+
+    .fontSizeBig {
+        font-size: 14px;
+    }
+
+    .allTextShobjiSize {
+        font-size: 13px;
+    }
+
+    .packageName {
+        background-color: #fff;
+        margin-right: 15px;
+        margin-left: 15px;
+        width: 330px;
+        height: 245px;
+        border-radius: 0 0 15px 15px;
+    }
+
+    .marginLeftDiv {
+        margin-left: 14px;
+    }
+
+    .textH5 {
+        margin-top: 20px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .ptext {
+        color: #75a641;
+        font-size: 15px;
+    }
+
+    .displayNonePackage {
+        display: none;
+    }
+
+    .manyText {
+        line-height: 1.6rem;
+        margin-top: 10px;
+    }
+
+    .JustReSize {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .bgColorEstimated {
+        height: 70px;
+        background-color: #f6feee;
+        border: 1px dashed green;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .tEstimate {
+        font-size: 11px;
+    }
+
+     #packageBtnGroup {
+        width: 300px;
+        height: 50px; 
+        margin-top: 0px;
+    }
+
+    #cartBtn {
+        width: 125px;
+        background-color: #ffae00;
+        color: #fff;
+        border: none;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 25px 0 0 25px;
+        outline: none;
+    }
+
+    #cartBtn:hover {
+        background-color: #ff9c00;
+    }
+
+    #neutrationBtn {
+        width: 175px;
+        background-color: #73a93c;
+        color: #fff;
+        border: none;
+        border-radius: 0 25px 25px 0;
+        font-size: 16px;
+        font-weight: 500;
+        outline: none;
+        padding-right: 5px;
+    }
+
+    #neutrationBtn:hover { 
+        background-color: #8bc34a;
+    }
+
+    .imgIcon5 {
+        width: 25px;
+        height: 25px;
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+
+    .iconSize {
+        width: 18px;
+        height: 18px;
+    }
+
+    .otherDiv {
+        width: 12px;
+    }
+
+    .firstRowMove {
+        margin-top: 12px;
+    }
+
+    .dropdownMove {
+        margin-top: 8px;
+    }
+
+}
+
+@media (min-width: 576px) {
+    .bgImgPackage {
+        background-image: url(../../Images/Latest_background.png);
+        background-repeat:no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-position:center;
+        height: 560px;
+    }
+
+    .displayAnotherTextNone {
+        display: none;
+    }
+
+    .displayFlex {
+        display: flex;
+    }
+
+    .displyFelx {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navBarDisplayFlex {
+        display: flex;
+    }
+
+    .addjusmentPicture {
+        margin-top: 60px;
+    }
+    
+    .menuBar1 {
+        width: 100%;
+        height: 30px;
+        border-radius: 50px;
+    }
+
+    .menuBar {
+        width: 100%;
+        height: 55px;
+        background-color: #307d3d;
+        border-radius: 50px;
+    }
+
+    .moveUl {
+        margin-top: 15px;
+    }
+
+    #linkCustom{
+        color: #fff;
+        font-weight: 400;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #linkCustom:hover {
+        background-color: #75a641;
+        border-radius: 50px;
+    }
+
+    .containerImgBg {
+        background-image: url(../../Images/bookmark.png);
+        background-repeat:no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-position:center;
+        height: 300px;
+    }
+
+    .shobjiImg {
+        width: 270px;
+        height: 300px;
+    }
+
+    .packageName {
+        width: 270px;
+    }
+
+    #packageBtnGroup {
+        width: 320px;
+        height: 50px; 
+        margin-top: 3px;
+    }
+
+    #cartBtn {
+        width: 100px;
+        background-color: #ffae00;
+        color: #fff;
+        border: none;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 25px 0 0 25px;
+        outline: none;
+    }
+
+    #cartBtn:hover {
+        background-color: #ff9c00;
+    }
+
+    #neutrationBtn {
+        width: 150px;
+        background-color: #73a93c;
+        color: #fff;
+        border: none;
+        border-radius: 0 25px 25px 0;
+        font-size: 14px;
+        font-weight: 500;
+        outline: none;
+    }
+
+    #neutrationBtn:hover { 
+        background-color: #8bc34a;
+    }
+
+    .textH5 {
+        margin-top: 18px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .ptext {
+        color: #75a641;
+        font-size: 14px
+    }
+
+    .manyText {
+        line-height: 1.4rem;
+        font-size: 12px
+    }
+
+    .marginLeftDiv {
+        margin-left: 10px;
+    }
+
+    .fontSizeBig {
+        font-weight: 500;
+    }
+
+    .moveDivp {
+        margin-left: 10px;
+    }
+
+    .shosaBg {
+        width: 115px;
+        height: 130px;
+        border-radius: 10px;
+        background-color: #fff;
+    }
+
+    .moveLeft {
+        margin-left: 30px;
+    }
+
+    .moveLeftSecondRow {
+        margin-left: 45px;
+    }
+
+    .allShobjiAlign {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 10px;
+    }
+
+    .otherDiv {
+        width: 10px;
+    }
+
+    .firstRowMove {
+        margin-top: 13px;
+    }
+
+    .marginTopDiv {
+        margin-top: 25px;
+    }
+
+    .bgColorEstimated {
+        margin-top: 70px;
+        height: 100px;
+        background-color: #f6feee;
+        border: 1px dashed green;
+        border-radius: 10px;
+    }
+
+    .tEstimate {
+        margin-top: 4px;
+    }
+
+    .imgIcon5 {
+        width: 28px;
+        height: 28px;
+        margin-left: 28px;
+        margin-right: 15px;
+    }
+
+    .movePara {
+        margin-top: 15px;
+    }
+
+    .iconSize {
+        height: 14px;
+    }
+
+    
+    #allShobjiImgReSize {
+        width: 55px;
+        height: 85px;
+    }
+
+    .allTextShobjiSize {
+        font-size: 11px;
+    }
+
+    .displayNoneHeaderPack {
+        display: none;
+    }
+
+    .iconSize {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media (min-width: 768px) {
+    .bgImgPackage {
+        background-image: url(../../Images/Latest_background.png);
+        background-repeat:no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-position:center;
+        height: 640px;
+    }
+
+    .displyFelx {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navBarDisplayFlex {
+        display: flex;
+    }
+    
+    .allTextShobjiSize {
+        font-size: 16px;
+    }
+
+    .addjusmentPicture {
+        margin-top: 86px;
+    }
+    
+    .menuBar1 {
+        width: 100%;
+        height: 30px;
+        border-radius: 50px;
+    }
+
+    .menuBar {
+        width: 100%;
+        height: 55px;
+        background-color: #307d3d;
+        border-radius: 50px;
+    }
+
+    .moveUl {
+        margin-top: 15px;
+    }
+
+    #linkCustom{
+        color: #fff;
+        font-weight: 400;
+        margin-left: 20px;
+        margin-right: 55px;
+    }
+
+    #linkCustom:hover {
+        background-color: #75a641;
+        border-radius: 50px;
+    }
+
+    .containerImgBg {
+        background-image: url(../../Images/bookmark.png);
+        background-repeat:no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-position:center;
+        height: 300px;
+    }
+
+    .shobjiImg {
+        width: 360px;
+        height: 300px;
+    }
+
+    .packageName {
+        width: 360px;
+    }
+
+    #packageBtnGroup {
+        width: 320px;
+        height: 50px; 
+        margin-top: 3px;
+    }
+
+    #cartBtn {
+        width: 140px;
+        background-color: #ffae00;
+        color: #fff;
+        border: none;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 25px 0 0 25px;
+        outline: none;
+    }
+
+    #cartBtn:hover {
+        background-color: #ff9c00;
+    }
+
+    #neutrationBtn {
+        width: 180px;
+        background-color: #73a93c;
+        color: #fff;
+        border: none;
+        border-radius: 0 25px 25px 0;
+        font-size: 16px;
+        font-weight: 500;
+        outline: none;
+    }
+
+    #neutrationBtn:hover { 
+        background-color: #8bc34a;
+    }
+
+    .textH5 {
+        margin-top: 25px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    .ptext {
+        color: #75a641;
+    }
+
+    .manyText {
+        line-height: 1.6rem;
+        font-size: 15px
+    }
+
+    .marginLeftDiv {
+        margin-left: 8px;
+    }
+
+    .fontSizeBig {
+        font-weight: 500;
+    }
+
+    .moveDivp {
+        margin-left: 10px;
+    }
+
+    .shosaBg {
+        width: 160px;
+        height: 130px;
+        border-radius: 10px;
+        background-color: #fff;
+    }
+
+    .moveLeft {
+        margin-left: 37px;
+    }
+
+    .moveLeftSecondRow {
+        margin-left: 52px;
+    }
+
+    .allShobjiAlign {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+
+    .otherDiv {
+        width: 10px;
+    }
+
+    .firstRowMove {
+        margin-top: 13px;
+    }
+
+    .marginTopDiv {
+        margin-top: 25px;
+    }
+
+    .bgColorEstimated {
+        margin-top: 70px;
+        height: 100px;
+        background-color: #f6feee;
+        border: 1px dashed green;
+        border-radius: 10px;
+    }
+
+    .imgTop {
+        margin-top: 13px;
+        margin-left: 28px;
+        margin-right: 15px;
+    }
+
+    .tEstimate {
+        margin-top: 4px;
+    }
+
+    .imgIcon5 {
+        width: 28px;
+        height: 28px;
+        margin-left: 28px;
+        margin-right: 15px;
+    }
+
+    .movePara {
+        margin-top: 15px;
+    }
+
+    .iconSize {
+        height: 14px;
+    }
+
+    
+    #allShobjiImgReSize {
+        width: 65px;
+        height: 90px;
+    }
+}
+
+@media (min-width: 992px) {
+    .bgImgPackage {
+        background-image: url(../../Images/Latest_background.png);
+        background-repeat:no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-position:center;
+        height: 640px;
+    }
+
+    .displyFelx {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navBarDisplayFlex {
+        display: flex;
+    }
+
+    .addjusmentPicture {
+        margin-top: 86px;
+    }
+    
+    .menuBar1 {
+        width: 100%;
+        height: 30px;
+        border-radius: 50px;
+    }
+
+    .menuBar {
+        width: 100%;
+        height: 55px;
+        background-color: #307d3d;
+        border-radius: 50px;
+    }
+
+    .moveUl {
+        margin-top: 15px;
+    }
+
+    #linkCustom:hover {
+        background-color: #75a641;
+        border-radius: 50px;
+    }
+
+    .containerImgBg {
+        background-image: url(../../Images/bookmark.png);
+        background-repeat:no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-position:center;
+        height: 300px;
+    }
+
+    .shobjiImg {
+        width: 480px;
+        height: 300px;
+    }
+
+    .packageName {
+        width: 480px;
+    }
+
+    #packageBtnGroup {
+        width: 320px;
+        height: 50px; 
+        margin-top: 8px;
+    }
+
+    #cartBtn {
+        width: 140px;
+        background-color: #ffae00;
+        color: #fff;
+        border: none;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 25px 0 0 25px;
+        outline: none;
+    }
+
+    #cartBtn:hover {
+        background-color: #ff9c00;
+    }
+
+    #neutrationBtn {
+        width: 180px;
+        background-color: #73a93c;
+        color: #fff;
+        border: none;
+        border-radius: 0 25px 25px 0;
+        font-size: 16px;
+        font-weight: 500;
+        outline: none;
+    }
+
+    #neutrationBtn:hover { 
+        background-color: #8bc34a;
+    }
+
+    .textH5 {
+        margin-top: 25px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    .ptext {
+        color: #75a641;
+    }
+
+    .manyText {
+        line-height: 1.6rem;
+        font-size: 15px
+    }
+
+    .marginLeftDiv {
+        margin-left: 9px;
+    }
+
+    .fontSizeBig {
+        font-weight: 500;
+    }
+
+    .moveDivp {
+        margin-left: 10px;
+    }
+
+    .shosaBg {
+        width: 220px;
+        height: 130px;
+        border-radius: 10px;
+        background-color: #fff;
+    }
+
+    .moveLeft {
+        margin-left: 36px;
+    }
+
+    .moveLeftSecondRow {
+        margin-left: 52px;
+    }
+
+    .allShobjiAlign {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+
+    .otherDiv {
+        width: 10px;
+    }
+
+    .firstRowMove {
+        margin-top: 13px;
+    }
+
+    .marginTopDiv {
+        margin-top: 25px;
+    }
+
+    .bgColorEstimated {
+        margin-top: 70px;
+        height: 100px;
+        background-color: #f6feee;
+        border: 1px dashed green;
+        border-radius: 10px;
+    }
+
+    .imgTop {
+        margin-top: 13px;
+        margin-left: 28px;
+        margin-right: 15px;
+    }
+
+    .tEstimate {
+        margin-top: 4px;
+    }
+
+    .imgIcon5 {
+        width: 28px;
+        height: 28px;
+        margin-left: 28px;
+        margin-right: 15px;
+    }
+
+    .movePara {
+        margin-top: 15px;
+    }
+
+    .iconSize {
+        height: 14px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .bgImgPackage {
+        background-image: url(../../Images/Latest_background.png);
+        background-repeat:no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-position:center;
+        height: 640px;
+    }
+
+    .displyFelx {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navBarDisplayFlex {
+        display: flex;
+    }
+
+    .addjusmentPicture {
+        margin-top: 86px;
+    }
+    
+    .menuBar1 {
+        width: 100%;
+        height: 30px;
+        border-radius: 50px;
+    }
+
+    .menuBar {
+        width: 100%;
+        height: 55px;
+        background-color: #307d3d;
+        border-radius: 50px;
+    }
+
+    .moveUl {
+        margin-top: 15px;
+    }
+
+    #linkCustom{
+        color: #fff;
+        font-weight: 400;
+        margin-left: 20px;
+        margin-right: 55px;
+    }
+
+    #linkCustom:hover {
+        background-color: #75a641;
+        border-radius: 50px;
+    }
+
+    .containerImgBg {
+        background-image: url(../../Images/bookmark.png);
+        background-repeat:no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-position:center;
+        height: 300px;
+    }
+
+    .shobjiImg {
+        width: 570px;
+        height: 300px;
+    }
+
+    .packageName {
+        width: 570px;
+    }
+
+    #packageBtnGroup {
+        width: 320px;
+        height: 50px; 
+        margin-top: 8px;
+    }
+
+    #cartBtn {
+        width: 140px;
+        background-color: #ffae00;
+        color: #fff;
+        border: none;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 25px 0 0 25px;
+        outline: none;
+    }
+
+    #cartBtn:hover {
+        background-color: #ff9c00;
+    }
+
+    #neutrationBtn {
+        width: 180px;
+        background-color: #73a93c;
+        color: #fff;
+        border: none;
+        border-radius: 0 25px 25px 0;
+        font-size: 16px;
+        font-weight: 500;
+        outline: none;
+    }
+
+    #neutrationBtn:hover { 
+        background-color: #8bc34a;
+    }
+
+    .textH5 {
+        margin-top: 25px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    .ptext {
+        color: #75a641;
+    }
+
+    .manyText {
+        width: 490px;
+        line-height: 1.7rem;
+    }
+
+    .marginLeftDiv {
+        margin-left: 20px;
+    }
+
+    .fontSizeBig {
+        font-weight: 500;
+    }
+
+    .moveDivp {
+        margin-left: 10px;
+    }
+
+    .shosaBg {
+        width: 265px;
+        height: 130px;
+        border-radius: 10px;
+        background-color: #fff;
+    }
+
+    .moveLeft {
+        margin-left: 37px;
+    }
+
+    .moveLeftSecondRow {
+        margin-left: 52px;
+    }
+
+    .allShobjiAlign {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+
+    .otherDiv {
+        width: 10px;
+    }
+
+    .firstRowMove {
+        margin-top: 13px;
+    }
+
+    .marginTopDiv {
+        margin-top: 25px;
+    }
+
+    .bgColorEstimated {
+        margin-top: 70px;
+        height: 100px;
+        background-color: #f6feee;
+        border: 1px dashed green;
+        border-radius: 10px;
+    }
+
+    .imgTop {
+        margin-top: 13px;
+        margin-left: 28px;
+        margin-right: 15px;
+    }
+
+    .tEstimate {
+        margin-top: 4px;
+    }
+
+    .imgIcon5 {
+        width: 28px;
+        height: 28px;
+        margin-left: 28px;
+        margin-right: 15px;
+    }
+
+    .movePara {
+        margin-top: 15px;
+    }
+
+    .iconSize {
+        width: 20px;
+        height: 20px;
+    }
+}

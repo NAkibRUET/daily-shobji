@@ -1,0 +1,551 @@
+.delevery {
+    position: relative;
+    overflow: hidden;
+}
+
+.text-block1 {
+    position: absolute;
+    top: 50px;
+    color: #fff;
+}
+
+.text-social {
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+}
+
+#footerImgSize {
+    width: 100%;
+    height: 400px;
+}
+
+.smallImg {
+    height: 25px;
+}
+
+.fontSizeh1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#fontSizeP {
+    font-size: 22px;
+}
+
+/* Responsive */
+
+@media (max-width: 575px) {
+    .delevery {
+        margin-top: 15px;
+    }
+
+    .imgSizeFooter {
+        width: 100%;
+        height: 122px;
+    }
+
+    #imgBlock {
+        display: none;
+    }
+
+    .carImg {
+        position: absolute;
+        bottom: 22px;
+        left: 180px;
+    }
+
+    .carImgsize {
+        height: 80px;
+    }
+
+    .fontSizeh1 {
+        position: relative;
+        font-size: 18px;
+        font-weight: 400;
+        z-index: 4;
+        margin-bottom: 15px;
+    }
+
+    #fontSizeP {
+        font-size: 14px;
+        line-height: 0.09rem;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+    .delevery {
+        position: relative;
+        overflow: visible;
+    }
+
+    .carPosition {
+        position: absolute;
+        bottom: -15px;
+        left: 160px;
+        z-index: 2;
+    }
+
+    .circleImgPosition {
+        position: absolute;
+        top: 20px;
+        left: 180px;
+        z-index: 1;
+    }
+
+    .smallCirlcePosition {
+        position: absolute;
+        top: 0px;
+        left: 255px;
+    }
+
+    .carImgReSize {
+        height: 70px;
+    }
+
+    .circleImgResize {
+        height: 80px;
+    }
+
+    .smallImgCirlceRisize {
+        height: 30px;
+    }
+    
+    .text-block1 {
+        position: absolute;
+        top: 14px;
+        color: #fff;
+        margin-left: 0px;
+    }
+    
+    .text-social {
+        position: absolute;
+        bottom: -8px;
+    }
+
+    .smallImg {
+        height: 14px;
+    }
+
+    #fontSizeFooterP {
+        font-size: 10px;
+        color: #b2b2b2;
+    }
+
+    .brandImgSize {
+        width: 12px;
+        height: 16px;
+        color: #000;
+        margin-left: 3px;
+        margin-top: -5px;
+    }
+    .brandImgSize:hover {
+        color: #fff;
+    }
+
+    .youTubeIcon {
+        width: 18px;
+        height: 18px;
+        background: #fff;
+        border-radius: 100%;
+        margin-left: 10px;
+        margin-top: -1px;
+    }
+
+    .border-left {
+        margin-top: 0px !important;
+    }
+
+    .youTubeIcon:hover {
+        background: #f00;
+    }
+
+    .youTubeLogoSize {
+        width: 13px;
+        height: 13px;
+        margin-left: 2.5px;
+        margin-top: -9px;
+        color: #000;
+    }
+
+    .youTubeLogoSize:hover {
+        color: #fff;
+    }
+
+    .facebookIcon {
+        width: 18px;
+        height: 18px;
+        background: #fff;
+        border-radius: 100%;
+        margin-top: -1px;
+    }
+
+    .facebookIcon:hover {
+        background: #3b5998;
+    }
+
+    .downBlack {
+        width: 100%;
+        height: 30px;
+        background: #292929;
+    }
+
+}
+
+@media (min-width: 576px) {
+    .fontSizeh1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .carImg {
+        display: none;
+    }
+
+    #imgABlock {
+        display: none;
+    }
+    
+    #fontSizeP {
+        font-size: 20px;
+        margin-top: -7px;
+    }
+
+    .delevery {
+        margin-top: 30px;
+        position: relative;
+    }
+    
+    .text-block1 {
+        position: absolute;
+        top: 20px;
+        color: #fff;
+    }
+    
+    .text-social {
+        position: absolute;
+        bottom: -5px;
+        color: #fff;
+    }
+    
+    .smallImg {
+        margin-top: 25px;
+        width: 20px;
+        height: 20px;
+    }
+
+    #fontSizeFooterP {
+        font-size: 12px;
+        color: #b2b2b2;
+    }
+
+    .marginAlign {
+        margin-top: 0px;
+        margin-right: 10px;
+    }
+
+    .justMove {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .bgImgSizeFooter {
+        background-image: url(/Images/footerBg.png);
+        background-repeat:no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-position:center;
+        width: 100%;
+        height: 260px;
+    }
+
+    .brandImgSize {
+        width: 20px;
+        height: 23px;
+        color: #000;
+        margin-left: 4px;
+        margin-top: 5px;
+    }
+    .brandImgSize:hover {
+        color: #fff;
+    }
+
+    .youTubeIcon {
+        width: 30px;
+        height: 30px;
+        background: #fff;
+        border-radius: 100%;
+        margin-left: 10px;
+        margin-top: -7px;
+    }
+
+    .youTubeIcon:hover {
+        background: #f00;
+    }
+
+    .youTubeLogoSize {
+        width: 20px;
+        height: 15px;
+        color: #000;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    .youTubeLogoSize:hover {
+        color: #fff;
+    }
+
+    .facebookIcon {
+        width: 30px;
+        height: 30px;
+        background: #fff;
+        border-radius: 100%;
+        margin-top: -7px;
+    }
+
+    .facebookIcon:hover {
+        background: #3b5998;
+    }
+
+    #imgBlock {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .fontSizeh1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    #fontSizeP {
+        font-size: 20px;
+        margin-top: -7px;
+    }
+
+    .delevery {
+        margin-top: 30px;
+        position: relative;
+    }
+    
+    .text-block1 {
+        position: absolute;
+        top: 20px;
+        color: #fff;
+    }
+    
+    .text-social {
+        position: absolute;
+        bottom: -5px;
+        color: #fff;
+    }
+    
+    .smallImg {
+        margin-top: 25px;
+        width: 20px;
+        height: 20px;
+    }
+
+    #fontSizeFooterP {
+        font-size: 12px;
+        color: #b2b2b2;
+    }
+
+    .marginAlign {
+        margin-top: 0px;
+        margin-right: 10px;
+    }
+
+    .justMove {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .bgImgSizeFooter {
+        background-image: url(/Images/footerBg.png);
+        background-repeat:no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-position:center;
+        width: 100%;
+        height: 260px;
+    }
+
+    .brandImgSize {
+        width: 20px;
+        height: 23px;
+        color: #000;
+        margin-left: 4px;
+        margin-top: 5px;
+    }
+    .brandImgSize:hover {
+        color: #fff;
+    }
+
+    .youTubeIcon {
+        width: 30px;
+        height: 30px;
+        background: #fff;
+        border-radius: 100%;
+        margin-left: 10px;
+        margin-top: -7px;
+    }
+
+    .youTubeIcon:hover {
+        background: #f00;
+    }
+
+    .youTubeLogoSize {
+        width: 20px;
+        height: 15px;
+        color: #000;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    .youTubeLogoSize:hover {
+        color: #fff;
+    }
+
+    .facebookIcon {
+        width: 30px;
+        height: 30px;
+        background: #fff;
+        border-radius: 100%;
+        margin-top: -7px;
+    }
+
+    .facebookIcon:hover {
+        background: #3b5998;
+    }
+
+    #imgBlock {
+        display: none;
+    }
+} 
+
+@media (min-width: 992px) {
+    .fontSizeh1 {
+        font-size: 45px;
+        font-weight: 700;
+    }
+    
+    #fontSizeP {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .fontSizeh1 {
+        font-size: 50px;
+        font-weight: 600;
+    }
+    
+    #fontSizeP {
+        font-size: 39px;
+    }
+
+    .delevery {
+        margin-top: 80px;
+        position: relative;
+    }
+    
+    .text-block1 {
+        position: absolute;
+        top: 50px;
+        color: #fff;
+    }
+    
+    .text-social {
+        position: absolute;
+        bottom: 10px;
+        color: #fff;
+    }
+    
+    .smallImg {
+        width: 35px;
+        height: 35px;
+    }
+
+    #fontSizeFooterP {
+        font-size: 16px;
+        color: #b2b2b2;
+    }
+
+    .marginAlign {
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .justMove {
+        margin-top: 45px;
+        margin-bottom: 80px;
+    }
+
+    .bgImgSizeFooter {
+        background-image: url(/Images/footerBg.png);
+        background-repeat:no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-position:center;
+        width: 100%;
+        height: 465px;
+    }
+
+    .brandImgSize {
+        width: 25px;
+        height: 28px;
+        color: #000;
+        margin-left: 5px;
+        margin-top: 8px;
+    }
+    .brandImgSize:hover {
+        color: #fff;
+    }
+
+    .youTubeIcon {
+        width: 35px;
+        height: 35px;
+        background: #fff;
+        border-radius: 100%;
+        margin-left: 10px;
+    }
+
+    .youTubeIcon:hover {
+        background: #f00;
+    }
+
+    .youTubeLogoSize {
+        width: 25px;
+        height: 15px;
+        color: #000;
+        margin-left: 5px;
+        margin-top: 8px;
+    }
+
+    .youTubeLogoSize:hover {
+        color: #fff;
+    }
+
+    .facebookIcon {
+        width: 35px;
+        height: 35px;
+        background: #fff;
+        border-radius: 100%;
+    }
+
+    .facebookIcon:hover {
+        background: #3b5998;
+    }
+
+    #imgBlock {
+        display: none;
+    }
+
+}
